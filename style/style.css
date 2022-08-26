@@ -1,0 +1,578 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+    /* background-color: aqua; */
+    padding-left: 50%;
+    
+    
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    text-indent: -99999999999px;
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo4.webp) 
+    
+    
+}
+h1 a{
+    display: block;
+    width: 100px;
+    height: 100px;
+
+}
+.social{
+    width: 100px;
+    height: 50px;
+    padding-left: 50px;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    
+    
+}
+.social a{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.fb{
+    background-image: url(../img/fb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.fb:hover{
+    background-image: url(../img/fbhover.png);
+}
+.inst{
+    background-image: url(../img/inst.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.inst:hover{
+    background-image: url(../img/insthover.png);
+}
+
+.person{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/user.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.person a{
+    display: block;
+    padding: 14px 10px;
+}
+
+/* .person:hover{
+    cursor: pointer;
+} */
+
+.serch{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/search.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    right: 150px; 
+}
+
+.serch:hover{
+    cursor: pointer;
+}
+
+.inpute{
+    position: absolute;
+    margin-top: 35px;
+    display: none;
+}
+
+
+
+header ul{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -280px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+}
+header ul a{
+    padding: 5px 10px;
+    color: black;
+}
+.mainimg{
+    background-image: url(../img/mainimg2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #414141;
+}
+
+h2 a{
+    color: #414141;
+}
+.item{
+    height: 350px;
+    overflow: hidden;
+    
+    
+}
+ .item a{
+    text-align: center;
+    background-size: 100%;
+    margin-top: 20px;
+    color: #000000;
+ }
+
+ .shopcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    /* background-color: blue; */
+    margin-top: 50px;
+    
+ }
+
+ .optic, .clothing, .bag, .accessorie{
+    width: 300px;
+    height: 300px;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    
+    
+    
+ }
+
+ .optic a{
+    width: 100%;
+    height: 300px;
+    display: block;
+ }
+
+ .clothing a{
+    width: 100%;
+    height: 300px;
+    display: block;
+ }
+
+ .bag a{
+    width: 100%;
+    height: 300px;
+    display: block;
+ }
+
+ .accessorie a{
+    width: 100%;
+    height: 300px;
+    display: block;
+ }
+
+ .shopcontainer p{
+    font-size: 25px;
+    text-align: center;
+    color: #fffefe;
+    padding-top: 50%;
+ }
+ .optic{
+    background-image: url(../img/optic4.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+ }
+
+.clothing{
+    background-image: url(../img/clothing4.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.bag{
+    background-image: url(../img/bag4.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.accessorie{
+    background-image: url(../img/accessorie4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.partner1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.partner{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.bushnell, .vortex, .sako, .tikka, .victorinox, .fenix, .hornady, .savage, .magpul, .winchester{
+   font-size: 15px;
+}
+
+.about{
+    margin-left: 17%;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    background-color: #fffefe;
+    width: 70%;
+    border: 1px solid #414141 
+    
+}
+
+/* .BAGSPAGE */
+
+.bagshop{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 50px;
+}
+
+.bag1line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.bag1{
+    width: 250px;
+    background-color: #f1f1f1;
+    border: 0.5px solid #888686;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.bag1 a{
+display: block;
+color: #888686;
+padding: 5px 10px;
+
+}
+
+.bag2line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.bag3line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+
+/* CLOTHINGPAGE */
+
+.clothingshop{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 50px;
+}
+
+.clothing1line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.clothing1{
+    width: 250px;
+    background-color: #f1f1f1;
+    border: 0.5px solid #888686;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.clothing1 a{
+display: block;
+color: #888686;
+padding: 5px 10px;
+
+}
+
+.clothing2line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.clothing3line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+/* OPTICSPAGE */
+
+.opticsshop{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 50px;
+}
+
+.optics1line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.optics1{
+    width: 250px;
+    background-color: #f1f1f1;
+    border: 0.5px solid #888686;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.optics1 a{
+display: block;
+color: #888686;
+padding: 5px 10px;
+
+}
+
+.optics2line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.optics3line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+/* ACCESSORIEPAGE */
+
+.accessoriesshop{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 50px;
+}
+
+.accessories1line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.accessories1{
+    width: 250px;
+    background-color: #f1f1f1;
+    border: 0.5px solid #888686;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.accessories1 a{
+display: block;
+color: #888686;
+padding: 5px 10px;
+
+}
+
+.accessories2line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.accessories3line{
+    width: 100%;
+    /* background-color: #888686; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+/* REGISTERPAGE */
+
+.personreg{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.forma{
+    width: 400px;
+    padding: 20px;
+    background-color: #888686;
+}
+
+.forma input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.regreg{
+    width: 400px;
+    padding: 20px;
+    background-color: #888686;
+}
+
+.regreg input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.contactdiv{
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+iframe{
+    margin-bottom: 50px;
+}
+
+
+.xazi{
+    width: 100%;
+    height: 1px;
+    background-color: #888686;
+    margin-bottom: 20px;
+    
+
+}
+
+.footinfo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.footinfo a{
+    background-size: 100%;
+    display: block;
+    color: #3b3131;
+}
+footer{
+    position: relative;
+}
+
+.social1{
+    width: 100px;
+    height: 50px;
+    padding-left: 50px;
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+
+    .social1 a{
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    .copy{
+        text-align: center;
+    }
+
+    .gif{
+        width: 200px;
+        height: 250px;
+        background-image: url(../img/3MhK.gif);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 60px;
+        bottom: -60px;
+    }
+
+
+    @media screen and (max-width: 970px) {
+        
+        .bag1line, .bag2line, .bag3line, .accessories1line, .accessories2line, .accessories3line, .clothing1line, .clothing2line, .clothing3line, .optics1line, .optics2line, .optics3line{
+        flex-direction: column;
+    }
+    }
+
+    
